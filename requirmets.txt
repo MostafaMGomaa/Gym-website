@@ -1,0 +1,22 @@
+1. HTML & CSS & JAVASCRIPT for at least three web pages including login
+ & Registration form or contact us form with social medial icons
+
+2. Show Password Strength in Registration form
+
+3. Website has Navigation Menu Bar or Sidebar Menu
+
+4. Website includes tables and list with circle type
+
+5. Website contains Buttons , bootstrap buttons and dropdown menus
+
+6. Website contains Image gallery with Search box
+
+7. Apply bootstrap grid in one page in website
+
+8. Apply bootstrap Pagination at the end of website
+
+9. Apply Onclick Event to change the style of comment Text Area in contact
+us page as text area background.
+
+10. Bonus (Apply animated Pop up Modal box that appear your name and
+your section )

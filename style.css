@@ -1,0 +1,36 @@
+html {
+  background-color: #ffffff;
+  padding: 10px;
+  background: fixed no-repeat;
+}
+
+body {
+  padding: 10px;
+  margin: 0;
+  /* position: relative; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  background: linear-gradient(to top right, #30cfba, #2297a7);
+  align-items: center;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  right: 40px;
+  margin: 5px;
+  padding: 5px;
+}
+.nav-links a:link {
+  text-decoration: none;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  font-size: large;
+}
+.nav-links a:hover {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 0;
+}

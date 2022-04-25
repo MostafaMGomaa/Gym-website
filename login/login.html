@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="styleSheet" href="login-style.css" />
+  </head>
+  <body>
+    <div class="left-side">
+      <span> To contact with our support<a href="#">click here </a></span>
+    </div>
+    <div class="container">
+      <div id="log_in" class="log_in">
+        <form class="login_form">
+          <h1 class="login_heading">Login</h1>
+          <input
+            type="text"
+            class="login_username"
+            autofocus
+            placeholder="Username or email"
+          />
+          <br />
+          <input
+            type="password"
+            class="login_password"
+            placeholder="Password"
+          /><br />
+          <button class="btn login_submit">Submit</button>
+
+          <!-- <input type="button" value="Submit" class="login_submit" /> -->
+
+          <!--Links-->
+          <div class="links">
+            <a href="#">Forget your password?</a> <br />
+            <a href="#" class="login_create_one"
+              >Don't have account? Create one.</a
+            >
+          </div>
+        </form>
+      </div>
+
+      <!--sign up -->
+      <div class="sign_up" class="sign_up">
+        <form class="sign_up_form hidden">
+          <h1 class="sign_up_heading">Sign up</h1>
+          <input
+            type="text"
+            class="sign_up_username"
+            autofocus
+            placeholder="Username"
+          />
+          <input type="text" class="sign_up_email" placeholder="Email" />
+
+          <input
+            type="password"
+            class="sign_up_password"
+            placeholder="Password"
+          />
+
+          <input
+            type="password"
+            class="sign_up_repassword"
+            placeholder="Retype your password"
+          />
+          <button class="btn sign_up_submit">Submit</button>
+
+          <div class="links">
+            <a href="#login_username">Login</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="login-script.js"></script>
+  </body>
+</html>

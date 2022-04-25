@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 50px;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top right, #30cfba, #2297a7);
+}
+
+.container {
+  background: linear-gradient(to top right, #6dbeb4, #4ce1f5);
+  margin: 0;
+  padding: 10px;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  border-radius: 20px;
+  box-shadow: black;
+  text-align: center;
+}
+
+.login_heading {
+  text-align: center;
+  color: wheat;
+  text-shadow: black;
+}
+
+.login_username,
+.login_password {
+  padding: 5px;
+  /* margin: 10px; */
+  border-style: none none solid none;
+  border-color: rgb(219, 238, 188);
+  background: none;
+  position: relative;
+  margin: 0 auto;
+}
+
+.login_submit {
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(151, 133, 98);
+  border-style: none none solid none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: large;
+}
+
+.links a:link,
+.left-side a:link {
+  text-decoration: none;
+  color: rgb(245, 222, 179);
+  margin: 10px;
+}
+
+.links a:link:hover,
+.left-side a:link:hover {
+  color: rgb(200, 255, 0);
+}
+
+.left-side a:link {
+  color: rgb(7, 52, 94);
+}
+span {
+  font-size: medium;
+  font-weight: 700;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+input:focus {
+  outline: none;
+  border-style: none none solid none;
+}
+.hidden {
+  display: none;
+}
