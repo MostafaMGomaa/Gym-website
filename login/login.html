@@ -5,28 +5,26 @@
     <link rel="styleSheet" href="login-style.css" />
   </head>
   <body>
-    <div class="left-side">
+    <div class="down-side">
       <span> To contact with our support<a href="#">click here </a></span>
     </div>
     <div class="container">
       <div id="log_in" class="log_in">
-        <form class="login_form">
+        <form class="login_form hidden">
           <h1 class="login_heading">Login</h1>
           <input
             type="text"
             class="login_username"
             autofocus
-            placeholder="Username or email"
+            placeholder="👤️Username or email"
           />
           <br />
           <input
             type="password"
             class="login_password"
-            placeholder="Password"
+            placeholder="🛂️Password"
           /><br />
           <button class="btn login_submit">Submit</button>
-
-          <!-- <input type="button" value="Submit" class="login_submit" /> -->
 
           <!--Links-->
           <div class="links">
@@ -40,31 +38,37 @@
 
       <!--sign up -->
       <div class="sign_up" class="sign_up">
-        <form class="sign_up_form hidden">
+        <form class="sign_up_form">
           <h1 class="sign_up_heading">Sign up</h1>
           <input
             type="text"
             class="sign_up_username"
             autofocus
-            placeholder="Username"
-          />
-          <input type="text" class="sign_up_email" placeholder="Email" />
+            placeholder="👤️Username"
+          /><br />
+          <input
+            type="text"
+            class="sign_up_email"
+            placeholder="🖋️Email"
+          /><br />
 
           <input
             type="password"
             class="sign_up_password"
-            placeholder="Password"
+            placeholder="🛂️Password"
           />
+          <br />
 
           <input
             type="password"
             class="sign_up_repassword"
-            placeholder="Retype your password"
+            placeholder="🖊️Retype your password"
           />
+          <br />
           <button class="btn sign_up_submit">Submit</button>
 
           <div class="links">
-            <a href="#login_username">Login</a>
+            <a href="#login_username" class="login_link">Login</a>
           </div>
         </form>
       </div>

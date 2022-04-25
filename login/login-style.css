@@ -22,16 +22,16 @@ body {
   text-align: center;
 }
 
-.login_heading {
+.login_heading,
+.sign_up_heading {
   text-align: center;
   color: wheat;
   text-shadow: black;
 }
 
-.login_username,
-.login_password {
+input {
   padding: 5px;
-  /* margin: 10px; */
+  width: 400px;
   border-style: none none solid none;
   border-color: rgb(219, 238, 188);
   background: none;
@@ -39,7 +39,7 @@ body {
   margin: 0 auto;
 }
 
-.login_submit {
+.btn {
   margin: 10px;
   padding: 5px;
   background-color: rgb(151, 133, 98);
@@ -50,7 +50,7 @@ body {
 }
 
 .links a:link,
-.left-side a:link {
+.down-side a:link {
   text-decoration: none;
   color: rgb(245, 222, 179);
   margin: 10px;
