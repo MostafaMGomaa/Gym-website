@@ -6,8 +6,11 @@
   </head>
   <body>
     <div class="down-side">
-      <span> To contact with our support<a href="#">click here </a></span>
+      <span class="footer">
+        To contact with our support<a href="#">click here </a></span
+      >
     </div>
+
     <div class="container">
       <div id="log_in" class="log_in">
         <form class="login_form">
@@ -24,7 +27,13 @@
             class="login_password"
             placeholder="🛂️Password"
           /><br />
-          <button class="btn login_submit">Submit</button>
+          <p class="password_strength">
+            Password is <span class="password_strength_msg"></span>
+          </p>
+
+          <button class="btn login_submit">
+            <img src="../img/arrow.png" />
+          </button>
 
           <!--Links-->
           <div class="links">
@@ -65,7 +74,13 @@
             placeholder="🖊️Retype your password"
           />
           <br />
-          <button class="btn sign_up_submit">Submit</button>
+          <button class="btn sign_up_submit">
+            <img src="../img/arrow.png" />
+          </button>
+
+          <p class="password_strength">
+            Password is <span class="password_strength_msg"></span>
+          </p>
 
           <div class="links">
             <a href="#login_username" class="login_link">Login</a>

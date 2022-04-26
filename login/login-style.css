@@ -8,12 +8,20 @@ body {
   background: linear-gradient(to top right, #30cfba, #2297a7);
 }
 
+.footer {
+  font-size: medium;
+  font-weight: 700;
+  position: absolute;
+  top: 92%;
+  left: 42%;
+}
+
 .container {
   background: linear-gradient(to top right, #6dbeb4, #4ce1f5);
   margin: 0;
   padding: 10px;
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -40,20 +48,24 @@ input {
 }
 
 .btn {
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
-  background-color: rgb(151, 133, 98);
-  border-style: none none solid none;
   border-radius: 5px;
-  color: #ffffff;
-  font-size: large;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
 }
 
 .links a:link,
 .down-side a:link {
   text-decoration: none;
   color: rgb(245, 222, 179);
-  margin: 10px;
+  margin: 5px;
 }
 
 .links a:link:hover,
@@ -64,12 +76,13 @@ input {
 .left-side a:link {
   color: rgb(7, 52, 94);
 }
-span {
-  font-size: medium;
-  font-weight: 700;
-  position: absolute;
-  top: 80%;
-  left: 40%;
+
+p {
+  margin: 0;
+}
+
+.password_strength {
+  color: white;
 }
 
 input:focus {
