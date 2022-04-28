@@ -11,20 +11,6 @@ const signupPassword = document.querySelector(".sign_up_password");
 const passwordStrenth = document.querySelector(".password_strength");
 const passwordStrenthMsg = document.querySelector(".password_strength_msg");
 
-const showForm = (formName, hiddenForm) => {
-  const form1 = document.querySelector(`.${formName}`);
-  const form2 = document.querySelector(`.${hiddenForm}`);
-
-  // Check if form is acually hidden or not
-  if (form1.classList.contains("hidden")) {
-    form1.classList.remove("hidden");
-    form2.classList.add("hidden");
-  } else {
-    form2.classList.remove("hidden");
-    form1.classList.add("hidden");
-  }
-};
-
 const calcStrength = (pass, p, span) => {
   if (pass.value.length > 0) {
     p.style.display = "block";
@@ -47,33 +33,12 @@ const calcStrength = (pass, p, span) => {
   }
 };
 
-function showSignup() {
-  showForm("sign_up_form", "login_form");
-}
-
-function showLogin() {
-  showForm("login_form", "sign_up_form");
-}
-
 // login form events
 btnLoginSubmit.addEventListener("click", () => {
   alert("Successfully login");
 });
 
-linkCreateEmail.addEventListener("click", showSignup);
-
-// signup form events
-btnSingupSubmit.addEventListener("click", () => {
-  alert("Successfully signin");
-});
-
-linkLogin.addEventListener("click", showLogin);
-
 // Password strength
 LoginPassword.addEventListener("input", () => {
   calcStrength(LoginPassword, passwordStrenth, passwordStrenthMsg);
-});
-
-signupPassword.addEventListener("input", () => {
-  calcStrength(signupPassword, passwordStrenth, passwordStrenthMsg);
 });

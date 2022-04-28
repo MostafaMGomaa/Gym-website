@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url("./img/back2.jpeg ");
+  background-image: url("./img/back1.jpeg ");
   /* height: 100%; */
   background-position: center;
   background-repeat: no-repeat;
@@ -20,13 +20,25 @@ body {
   align-items: center;
 }
 
-.nav-menu {
-  position: fixed;
+.header {
   top: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  height: 50px;
+}
+
+.nav-menu {
+  /* position: fixed; */
+  position: absolute;
+  top: 25px;
   right: 40%;
   margin: 5px;
   padding: 5px;
 }
+
 .nav-links a:link {
   text-decoration: none;
   margin: 5px;
@@ -35,30 +47,36 @@ body {
   font-size: large;
 }
 .nav-links a:hover {
-  background-color: aliceblue;
+  background-color: rgb(0, 0, 0);
   border-radius: 20px;
   padding: 5px;
   margin: 0;
 }
 
-.header {
+.search-div {
   position: absolute;
-  top: 10px;
-  padding: 5px;
+  top: 35px;
+}
+
+.search,
+.search:focus {
+  border: 2px solid rgb(255, 145, 0);
+  border-radius: 5px;
+  background: rgba(255, 246, 246, 1);
+  color: rgb(0, 0, 0);
+}
+
+.search:focus {
+  outline: none;
 }
 
 .btn-boot {
-  top: 10%;
-  margin: 20px;
+  position: absolute;
+  top: 0;
+  left: 90%;
   border-radius: 50px;
 }
 
-.hBoot {
-  font-size: small;
-  margin: 10px;
-  color: white;
-  left: 70%;
-}
 /* Create three columns of equal width */
 .columns {
   float: left;
@@ -81,7 +99,6 @@ body {
 
 /* Pricing header */
 .programs {
-  position: relative;
   width: 500px;
   height: 500px;
   margin: 50px;
@@ -102,7 +119,8 @@ body {
   padding: 20px;
 }
 .price .header {
-  position: relative;
+  margin: 0px;
+  padding: 20px;
   background-color: rgb(255, 145, 0);
   color: white;
   font-size: 25px;
@@ -131,15 +149,6 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-}
-
-.search,
-.search:focus {
-  border-style: none none solid none;
-  border-radius: 20px;
-  border-color: rgb(255, 115, 1);
-  background: none;
-  color: aliceblue;
 }
 
 .gallery {

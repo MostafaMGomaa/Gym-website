@@ -11,29 +11,27 @@
     />
   </head>
   <body>
-    <div class="nav-menu">
-      <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#programs">Programs</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#">Contact us</a>
-        <a href="#">About</a>
-      </div>
-    </div>
-
     <div class="header">
-      <input type="text" placeholder="Search.." class="search" />
-    </div>
+      <div class="btn-group btn-boot" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-warning btnLogin">Login</button>
+        <button type="button" class="btn btn-danger btnSignup">Signup</button>
+      </div>
 
-    <div class="btn-group btn-boot" role="group" aria-label="Basic example">
-      <p class="h1 hBoot">Need to login to get your access</p>
-      <button
-        type="button"
-        class="btn btn-warning btnLogin"
-        onclick="window.location.href='/login/login.html  '"
-      >
-        Login
-      </button>
+      <div class="nav-menu">
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#programs">Programs</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#">Contact us</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+
+      <div class="search-div">
+        <input type="text" placeholder="Search.." class="search" />
+      </div>
+
+      <!-- <div class="logo"><img src="img/logo.png" /></div> -->
     </div>
 
     <div class="programs">
@@ -109,6 +107,8 @@
         <div class="desc">Crossfit</div>
       </div>
     </div>
+
+    <div class="footer"></div>
 
     <script src="script.js"></script>
   </body>

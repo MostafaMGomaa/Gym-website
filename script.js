@@ -1,13 +1,14 @@
 const btnLogin = document.querySelector(".btnLogin");
+const btnSignup = document.querySelector(".btnSignup");
 
 btnLogin.addEventListener("click", () => {
-  location.href = "login.html";
-
-  // onclick="location.href='page2.html'"
+  location.href = "login/login.html";
+});
+btnSignup.addEventListener("click", () => {
+  location.href = "registration/registration.html";
 });
 
-// btn_login.onclick = document.location = "/login/login.html";
-btn_login.onclick = function () {
-  console.log("Hello");
-  location.href = "/login/login.html";
-};
+// btn_login.onclick = function () {
+//   console.log("Hello");
+//   location.href = "/login/login.html";
+// };
