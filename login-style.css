@@ -5,7 +5,7 @@ body {
   line-height: 50px;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to top right, #30cfba, #2297a7);
+  background: linear-gradient(to top right, #c7ae1f, #a76222);
 }
 
 .footer {
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  background: linear-gradient(to top right, #6dbeb4, #4ce1f5);
+  background: linear-gradient(to top right, #a8be6d, #f5b14c);
   margin: 0;
   padding: 10px;
   width: 600px;
