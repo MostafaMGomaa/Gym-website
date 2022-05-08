@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(#d37c54, #a73232);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgb(245, 185, 185);
+  border-radius: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+}
+
+input[type="text"],
+select,
+textarea {
+  color: white;
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgb(255, 201, 119);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #662e2e;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e21a00;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+input:focus,
+textarea {
+  outline-color: #a73232;
+}
+
+.country-select {
+  color: rgb(0, 0, 0);
+}
+
+.subject-field {
+  height: 200px;
+}
+
+.btns {
+  position: absolute;
+  left: 10%;
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: larger;
+  border: none;
+  color: rgb(184, 184, 184);
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  background-color: rgb(1, 8, 12);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+  padding: 20px 10px 30px 10px;
+  margin: 10px 0 5px 0;
+  font-size: 30px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-linkedin {
+  color: #0072b1;
+}
+
+.fa-github {
+  color: #ffffff;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}

@@ -9,9 +9,15 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="header">
+    <div class="layout"></div>
+
+    <div class="page-header">
       <div class="btn-group btn-boot" role="group" aria-label="Basic example">
         <button type="button" class="btn btn-warning btnLogin">Login</button>
         <button type="button" class="btn btn-danger btnSignup">Signup</button>
@@ -19,11 +25,11 @@
 
       <div class="nav-menu">
         <div class="nav-links">
-          <a href="#">Home</a>
+          <a href="#" target="_blank">Home</a>
           <a href="#programs">Programs</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#">Contact us</a>
-          <a href="#">About</a>
+          <a href="#gallery" target="_blank">Gallery</a>
+          <a href="contact us/contact.html" target="_blank">Contact us</a>
+          <a href="#" target="_blank">About</a>
         </div>
       </div>
 
@@ -34,82 +40,79 @@
       <!-- <div class="logo"><img src="img/logo.png" /></div> -->
     </div>
 
-    <div class="programs">
+    <h1 class="display-2">Memberships</h1>
+
+    <div class="programs" id="programs">
       <div class="progOne">
         <div class="columns">
-          <ul class="price">
-            <li class="header">Basic</li>
-            <li class="orange">$ 9.99 / month</li>
+          <ul class="progOne-ul">
+            <li class="prog-header">Basic</li>
+            <li class="price">$ 9.99 / month</li>
             <li>Lefts</li>
             <li>Tradmails</li>
             <li>Cable Machine</li>
             <li>Leg Machine</li>
-            <li class="orange"><a href="#" class="button">Sign Up</a></li>
+            <li class="orange"><a href="#" class="prog-btn">Sign Up</a></li>
           </ul>
         </div>
       </div>
 
       <div class="progTwo">
         <div class="columns">
-          <ul class="price">
-            <li class="header">Premium</li>
-            <li class="orange">$ 49.99 / month</li>
+          <ul class="progTwo-ul">
+            <li class="prog-header">Premium</li>
+            <li class="price">$ 49.99 / month</li>
             <li>All Machines</li>
             <li>Tradmails</li>
             <li>Crossfit</li>
             <li>Fitness Coach</li>
-            <li class="orange"><a href="#" class="button">Sign Up</a></li>
+            <li class="orange"><a href="#" class="prog-btn">Sign Up</a></li>
           </ul>
         </div>
       </div>
 
       <div class="progThree">
         <div class="columns">
-          <ul class="price">
-            <li class="header">Ultimate</li>
-            <li class="orange">$ 99.99 / month</li>
+          <ul class="progTwo-ul">
+            <li class="prog-header">Ultimate</li>
+            <li class="price">$ 99.99 / month</li>
             <li>All Machines</li>
             <li>Tradmails</li>
             <li>Fitness Coach</li>
             <li>Nutrition</li>
-            <li class="orange"><a href="#" class="button">Sign Up</a></li>
+            <li class="orange"><a href="#" class="prog-btn">Sign Up</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="images">
-      <div class="gallery">
-        <a target="_blank" href="img/1.jpeg">
-          <img src="img/1.jpeg" alt="Gym" />
-        </a>
-        <div class="desc">Deadleft</div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="img/2.jpg">
-          <img src="img/2.jpg" alt="Gym_img" />
-        </a>
-        <div class="desc">Womans</div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="img/6.jpg">
-          <img src="img/6.jpg" alt="Gym_img" />
-        </a>
-        <div class="desc">Phisycs</div>
-      </div>
-
-      <div class="gallery">
-        <a target="_blank" href="img/7.jpg">
-          <img src="img/7.jpg" alt="Gym_img" />
-        </a>
-        <div class="desc">Crossfit</div>
+    <div class="footer">
+      <div class="social-media">
+        <a
+          href="https://twitter.com/Mostafa_M_gomaa"
+          class="fa fa-twitter"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.facebook.com/Mostafa.M.Gom3a"
+          class="fa fa-facebook"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/mostafamgomaa/"
+          class="fa fa-linkedin"
+          target="_blank"
+        ></a>
+        <a
+          href="https://github.com/MostsfaMGomaa"
+          class="fa fa-github"
+          target="_blank"
+        ></a>
       </div>
     </div>
-
-    <div class="footer"></div>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- img/1.jpeg img/2.jpg" img/3.jpg" -->

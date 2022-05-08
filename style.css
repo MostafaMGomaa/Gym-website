@@ -4,7 +4,7 @@
 
 html {
   background-color: #000000;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 body {
@@ -13,20 +13,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 110vh;
+  width: 100%;
+  height: 100vh;
   align-items: center;
 }
 
-.header {
+.page-header {
   top: 0;
-  background-color: #ffffff;
+  background-color: #fce1cf;
   padding: 5px;
 }
 
 .nav-menu {
   /* position: fixed; */
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 40%;
   margin: 5px;
   padding: 5px;
@@ -35,20 +36,22 @@ body {
 .nav-links a:link {
   text-decoration: none;
   margin: 5px;
-  color: rgb(235, 77, 20);
+  padding: 10px;
+  color: rgb(158, 50, 11);
   font-weight: 200;
-  font-size: large;
+  font-size: 18px;
 }
+
 .nav-links a:hover {
-  background-color: rgb(0, 0, 0);
-  border-radius: 20px;
-  padding: 5px;
-  margin: 0;
+  background-color: rgb(211, 209, 209);
+  border-radius: 15px;
+  padding: 7px;
+  margin: 5px;
 }
 
 .search-div {
   position: absolute;
-  top: 20px;
+  top: 10px;
 }
 
 .search,
@@ -62,78 +65,80 @@ body {
 .search:focus {
   outline: none;
 }
-
+.btnLogin,
+.btnSignup {
+  position: absolute;
+  padding: 14px;
+  font-size: 20px;
+  width: 70px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
 .btn-boot {
   position: absolute;
   top: 0;
   left: 90%;
-  border-radius: 50px;
 }
-
-/* Create three columns of equal width */
-.columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
-}
-
-/* Style the list */
-.price {
-  list-style-type: circle;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-}
-
-/* Add shadows on hover */
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Pricing header */
-.programs {
-  width: 500px;
-  height: 500px;
+.display-2 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
   margin: 50px;
-  padding: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: #fd6106;
+  border: 3.5px solid #eddf64;
+}
+
+.programs {
+  position: absolute;
+  display: flex;
+  top: 30%;
   left: 20%;
-}
-.programOne {
-  margin: 10px;
-  padding: 20px;
-}
-.programTwo {
-  left: 10%;
-  margin: 10px;
-  padding: 20px;
-}
-.programThree {
-  margin: 100px;
-  padding: 20px;
-}
-.price .header {
+  width: 600px;
+  height: 500px;
   margin: 0px;
-  padding: 20px;
-  background-color: rgb(255, 145, 0);
-  color: white;
-  font-size: 25px;
 }
 
-/* List items */
-.price li {
-  border-bottom: 0 solid rgb(0, 0, 0);
-  padding: 20px;
-  text-align: center;
-  color: white;
+.columns {
+  width: 200px;
+  height: 500px;
+  margin: 30px;
 }
 
-.price .orange {
-  background-color: rgb(109, 109, 109);
+li {
+  margin: 10px;
+  padding: 10px;
+  color: white;
   font-size: 20px;
+  font-weight: 200;
+  border-style: none none solid none;
+  border-radius: 3px;
 }
 
-/* The "Sign Up" button */
-.button {
+.prog-header {
+  background-color: orange;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.price {
+  background-color: grey;
+  color: orange;
+  border-radius: 3px;
+  list-style-type: none;
+}
+
+.orange {
+  border: none;
+  list-style-type: none;
+}
+
+.prog-btn {
   background: none;
   background-color: rgb(255, 145, 0);
   border: none;
@@ -141,32 +146,77 @@ body {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  border-radius: 3px;
 }
 
-.gallery {
+/* Add shadows on hover */
+.columns:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.9);
+  border: #ffffff solid;
+  width: 250px;
+  /* padding: 0px; */
+}
+
+/* div.gallery {
+  position: absolute;
+  top: 90%;
   margin: 5px;
-  border: 1px solid rgb(255, 145, 0);
-  float: left;
+  border: 1px solid #ccc;
   width: 180px;
 }
 
-.gallery:hover {
-  border: 1px solid rgb(255, 255, 255);
+div.gallery:hover {
+  border: 1px solid #777;
+} */
+/* .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+} */
+
+/* Clear floats after image containers .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(1, 8, 12);
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
+.social-media {
+  display: flex;
+  justify-content: center;
 }
 
-.desc {
-  padding: 15px;
+.fa {
+  padding: 20px 10px 30px 10px;
+  margin: 10px 0 5px 0;
+  font-size: 30px;
+  width: 100px;
+  height: 20px;
   text-align: center;
-  color: aliceblue;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 40px;
 }
 
-.images {
-  position: relative;
-  left: 20%;
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-linkedin {
+  color: #0072b1;
+}
+
+.fa-github {
+  color: #ffffff;
+}
+
+.fa-facebook {
+  color: #4267b2;
 }
