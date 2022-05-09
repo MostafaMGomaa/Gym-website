@@ -22,6 +22,41 @@ body {
   top: 0;
   background-color: #060d1d;
   padding: 5px;
+  height: 55px;
+}
+
+.logo {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 10px;
+  left: 20px;
+}
+
+.logo-img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.search-div {
+  position: absolute;
+  top: 15px;
+  left: 20%;
+}
+
+.search,
+.search:focus {
+  border: 2px solid rgb(19, 56, 90);
+  border-radius: 5px;
+  background: rgba(255, 246, 246, 1);
+  color: rgb(0, 0, 0);
+}
+
+.search:focus {
+  outline: none;
 }
 
 .nav-menu {
@@ -86,32 +121,15 @@ body {
   margin: 5px;
 }
 
-.search-div {
-  position: absolute;
-  top: 10px;
-}
-
-.search,
-.search:focus {
-  border: 2px solid rgb(19, 56, 90);
-  border-radius: 5px;
-  background: rgba(255, 246, 246, 1);
-  color: rgb(0, 0, 0);
-}
-
-.search:focus {
-  outline: none;
-}
 .btnLogin,
 .btnSignup {
-  position: absolute;
   cursor: pointer;
 }
 
 .btn-boot {
   position: absolute;
-  top: 0px;
   left: 90%;
+  top: 5px;
 }
 
 .display-2 {
@@ -119,6 +137,7 @@ body {
   top: 10%;
   left: 30%;
   margin: 50px;
+  margin-top: 0;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
