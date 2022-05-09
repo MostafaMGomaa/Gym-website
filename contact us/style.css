@@ -62,6 +62,7 @@ textarea {
   position: absolute;
   left: 10%;
   margin: 20px;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -86,41 +87,33 @@ textarea {
 
 .footer {
   position: absolute;
-  top: 90%;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: rgb(1, 8, 12);
+  margin-bottom: 0;
 }
 
 .social-media {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: max-content;
 }
 
 .fa {
-  padding: 20px 10px 30px 10px;
-  margin: 10px 0 5px 0;
-  font-size: 30px;
-  width: 100px;
-  height: 30px;
+  padding: 5px 5px 30px 5px;
+  margin: 10px;
+  width: 50px;
+  height: 20px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 20px;
   font-size: 40px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
-.fa-twitter {
-  color: #00acee;
-}
-
-.fa-linkedin {
-  color: #0072b1;
-}
-
-.fa-github {
-  color: #ffffff;
-}
-
-.fa-facebook {
-  color: #4267b2;
+.fa:hover {
+  color: rgb(0, 102, 255);
 }

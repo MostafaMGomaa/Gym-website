@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GYM</title>
+    <title>Gallery</title>
     <link rel="styleSheet" href="style.css" />
+    <link rel="styleSheet" href="../style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -40,7 +42,7 @@
               <a href="#Sessions" class="dropSessions">Sessions</a>
             </div>
           </div>
-          <a href="gallery/gallery.html" target="_blank">Gallery</a>
+          <a href="#gallery" target="_blank">Gallery</a>
           <a href="contact us/contact.html" target="_blank">Contact us</a>
           <a href="#" target="_blank">About</a>
         </div>
@@ -49,91 +51,73 @@
       <div class="search-div">
         <input type="text" placeholder="Search.." class="search" />
       </div>
-
-      <!-- <div class="logo"><img src="img/logo.png" /></div> -->
     </div>
+    <h1 class="display-2">Image Gallery</h1>
 
-    <h1 class="display-2">Memberships</h1>
-    <div class="programs" id="programs">
-      <div class="progOne">
-        <div class="columns">
-          <ul class="progOne-ul">
-            <li class="prog-header">Basic</li>
-            <li class="price">$ 9.99 / month</li>
-            <li>Lefts</li>
-            <li>Tradmails</li>
-            <li>Cable Machine</li>
-            <li>Leg Machine</li>
-            <li class="orange">
-              <a href="#" class="prog-btn btn-warning">Sign Up</a>
-            </li>
-          </ul>
+    <div class="container">
+
+      <div class="column column-one">
+        <div class="gallery">
+          <a target="_blank" href="../img/1.jpeg">
+            <img
+              src="../img/1.jpeg"
+              alt="Weight training"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">Your body can stand almost anything. Its your mind that you have to.</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="../img/2.jpg">
+            <img src="../img/2.jpg" alt="Ladies" width="600" height="400" />
+          </a>
+          <div class="desc">Success usually comes to those who are too busy to be looking for it.</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="../img/5.jpg">
+            <img
+              src="../img/5.jpg"
+              alt="Northern Lights"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">The body achieves what the mind believes.
+
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="column column-two">
+        <div class="gallery">
+          <a target="_blank" href="../img/4.jpg">
+            <img src="../img/4.jpg" alt="Mountains" width="600" height="400" />
+          </a>
+          <div class="desc">Once you are exercising regularly, the hardest thing is to stop it.</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="../img/8.jpg">
+            <img src="../img/8.jpg" alt="Mountains" width="600" height="400" />
+          </a>
+          <div class="desc">The best way to predict the future is to create it</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="../img/7.jpg">
+            <img src="../img/7.jpg" alt="Mountains" width="600" height="400" />
+          </a>
+          <div class="desc">Dead last finish is greater than did not finish.</div>
         </div>
       </div>
 
-      <div class="progTwo">
-        <div class="columns">
-          <ul class="progTwo-ul">
-            <li class="prog-header">Premium</li>
-            <li class="price">$ 49.99 / month</li>
-            <li>All Machines</li>
-            <li>Tradmails</li>
-            <li>Crossfit</li>
-            <li>Fitness Coach</li>
-            <li class="orange">
-              <a href="#" class="prog-btn btn-warning">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="progThree">
-        <div class="columns">
-          <ul class="progTwo-ul">
-            <li class="prog-header">Ultimate</li>
-            <li class="price">$ 99.99 / month</li>
-            <li>All Machines</li>
-            <li>Tradmails</li>
-            <li>Fitness Coach</li>
-            <li>Nutrition</li>
-            <li class="orange">
-              <a href="#" class="prog-btn btn-warning">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <br />
     </div>
-
-    <div class="table hidden">
-      <table class="sessions">
-        <tr>
-          <th>Session</th>
-          <th>Duration</th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <td>Cardio</td>
-          <td>20 min</td>
-          <td>9.99$</td>
-        </tr>
-        <tr>
-          <td>Crossfit</td>
-          <td>50 min</td>
-          <td>14.99$</td>
-        </tr>
-        <tr>
-          <td>Yoga</td>
-          <td>60 min</td>
-          <td>9.99$</td>
-        </tr>
-        <tr>
-          <td>Zumba</td>
-          <td>90 min</td>
-          <td>14.99$</td>
-        </tr>
-      </table>
     </div>
-
     <div class="footer">
       <div class="social-media">
         <a
@@ -158,9 +142,5 @@
         ></a>
       </div>
     </div>
-
-    <script src="script.js"></script>
   </body>
 </html>
-
-<!-- img/1.jpeg img/2.jpg" img/3.jpg" -->
