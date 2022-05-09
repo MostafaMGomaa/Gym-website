@@ -11,9 +11,9 @@
 
 6. Website contains Image gallery with Search box (Done)
 
-7. Apply bootstrap grid in one page in website ()
+7. Apply bootstrap grid in one page in website (Done)
 
-8. Apply bootstrap Pagination at the end of website ()
+8. Apply bootstrap Pagination at the end of website (Done)
 
 9. Apply Onclick Event to change the style of comment Text Area in contact
 us page as text area background. (Done)

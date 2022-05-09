@@ -121,11 +121,6 @@ body {
   margin: 5px;
 }
 
-.btnLogin,
-.btnSignup {
-  cursor: pointer;
-}
-
 .btn-boot {
   position: absolute;
   left: 90%;

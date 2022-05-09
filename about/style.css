@@ -1,0 +1,161 @@
+body {
+  height: 120vh;
+}
+.page-header {
+  top: 0;
+  background-color: #060d1d;
+  padding: 5px;
+  height: 55px;
+}
+
+.logo {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 10px;
+  left: 20px;
+}
+
+.logo-img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.search-div {
+  position: absolute;
+  top: 15px;
+  left: 10%;
+}
+
+.search,
+.search:focus {
+  border: 2px solid rgb(19, 56, 90);
+  border-radius: 5px;
+  background: rgba(255, 246, 246, 1);
+  color: rgb(0, 0, 0);
+}
+
+.search:focus {
+  outline: none;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 5px;
+  right: 40%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nav-links a:link {
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  color: rgb(158, 50, 11);
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.nav-links a:link :visited {
+  color: #fd1706;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropbtn {
+  color: rgb(158, 50, 11);
+  background: none;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-links a:hover {
+  background-color: rgb(211, 209, 209);
+  border-radius: 15px;
+  padding: 7px;
+  margin: 5px;
+}
+
+.btn-boot {
+  position: absolute;
+  left: 90%;
+  top: 5px;
+}
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.display-5 {
+  margin: 20px;
+}
+
+.btn.btn-outline-dark {
+  width: 150px;
+  height: 50px;
+}
+
+.img-div {
+  position: absolute;
+  left: 30%;
+  width: 200px;
+  height: 400px;
+}
+
+.img {
+  margin: 50px;
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.clients {
+  position: absolute;
+  top: 90%;
+  width: auto;
+  height: 300px;
+  margin: 50px;
+  background-image: linear-gradient(rgb(35, 74, 77), rgb(41, 54, 61));
+}
+
+.team {
+  color: rgb(255, 255, 255);
+}
+
+.demo-content {
+  padding: 15px;
+  font-size: 18px;
+  background: #dbdfe5;
+  margin-bottom: 15px;
+}
+.demo-content.bg-alt {
+  background: #ffffff;
+}
