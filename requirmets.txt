@@ -19,4 +19,4 @@
 us page as text area background. (Done)
 
 10. Bonus (Apply animated Pop up Modal box that appear your name and
-your section )
+your section ) (Done)

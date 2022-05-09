@@ -127,6 +127,38 @@ body {
   top: 5px;
 }
 
+.popup {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.9);
+  border-style: none none none solid;
+  border-color: #fd6906;
+  border-width: 10px;
+}
+
+.popup:hover {
+  border-style: none none solid none;
+  border-color: #fd6906;
+  border-width: 10px;
+}
+
+.info {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 20;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  left: 90%;
+}
+
 .display-2 {
   position: absolute;
   top: 15%;

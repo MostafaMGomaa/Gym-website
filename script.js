@@ -13,6 +13,8 @@ const progTwo = document.querySelector(".progTwo");
 const progThree = document.querySelector(".progThree");
 const h1 = document.querySelector(".display-2");
 const programs = document.querySelector(".programs");
+const btnClose = document.querySelector(".btn-close");
+const popup = document.querySelector(".popup");
 
 // Check if wanted div hide or not then hide the other divs
 const hide = (fdiv, sdiv) => {
@@ -60,4 +62,8 @@ dropPrograms.addEventListener("click", () => {
 dropSessions.addEventListener("click", () => {
   h1.innerHTML = "Sessions Table";
   hide(divTable, divPrograms);
+});
+
+btnClose.addEventListener("click", () => {
+  popup.classList.add("hidden");
 });
