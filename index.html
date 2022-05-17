@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,300i,700"
       rel="stylesheet"
@@ -24,16 +26,27 @@
     />
   </head>
   <body>
+    
     <header>
+      <div class="top-header">
+        <div class="email"><i class="fa fa-envelope email-icon"><span class="email-txt"> gomaamostafa26@gmail.com</span></i>
+        </div>
+        <div class="buttonContainer social-media">
+            <a class="btn btn-default" type= "button" href="#"><i class="fa fa-twitter"></i> </a>
+            <a class="btn btn-default" type= "button" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-default" type= "button" href="#"> <i class="fa fa-github"></i> </a>
+            <a class="btn btn-default" type= "button" href="#"> <i class="fa fa-linkedin"> </i> </a>
+          </div>
+      </div>
       <div class="page-header">
-        <div class="logo">
+        <div class="header-logo">
           <a href="index.html"
-            ><img src="./img/logo1.png" alt="logo" class="logo-img"
+            ><img src="./img/logo1.png" alt="logo" class="header-logo-img"
           /></a>
         </div>
 
         <div class="search-div">
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline ">
             <input
               type="text"
               placeholder="Search.."
@@ -42,15 +55,17 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-dark my-2 my-sm-0 search-btn" type="submit">
-              Search
+            <button class="btn btn-dark btn-sm search-btn" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg> 
             </button>
           </form>
         </div>
 
         <div class="nav-menu">
           <div class="nav-links">
-            <a href="./index.html">Home</a>
+            <a href="/"  class="links">Home</a>
             <div class="dropdown">
               <button class="dropbtn ProgramsBtn">Programs</button>
               <div class="dropdown-content">
@@ -61,13 +76,13 @@
                 <a href="#Sessions" class="dropSessions">Sessions</a>
               </div>
             </div>
-            <a href="gallery/gallery.html" target="_blank">Gallery</a>
-            <a href="contact us/contact.html" target="_blank">Contact us</a>
-            <a href="about/about.html" target="_blank">About</a>
+            <a href="gallery/gallery.html" target="_blank" class="links">Gallery</a>
+            <a href="contact us/contact.html" target="_blank" class="links">Contact us</a>
+            <a href="about/about.html" target="_blank" class="links">About</a>
           </div>
         </div>
 
-        <div class="btn-group btn-boot" role="group" aria-label="Basic example">
+        <div class="btn-group header-btn" role="group" aria-label="Basic example">
           <button type="button" class="btn btn-outline-info btnLogin">
             Login
           </button>
@@ -78,64 +93,68 @@
       </div>
     </header>
 
-
-    <main>
+    <main class="container">
       <div class="layout"></div>
       <!--PopUp-->
       <div class="popup">
-        <div class="info">Name: Mostafa Mohamed Gomaa<br>
+        <div class="popup-info">Name: Mostafa Mohamed Gomaa<br>
         Section: 7</div>
-        <button type="button" class="btn-close" aria-label="Close"></button>
+        <button type="button" class="popup-close-btn btn-close " aria-label="Close"></button>
       </div>
        <!--H1 and list and table-->
-      <h1 class="display-2">Memberships</h1>
+       <p class="display-4 check-label">Please check</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+      </svg>
+      <h1 class="display-2 memberships-label">Memberships</h1>
+      
       <!--List-->
-      <div class="programs" id="programs">
-        <div class="progOne">
-          <div class="columns">
-            <ul class="progOne-ul">
-              <li class="prog-header">Basic</li>
-              <li class="price">$ 9.99 / month</li>
-              <li>Lefts</li>
-              <li>Tradmails</li>
-              <li>Cable Machine</li>
-              <li>Leg Machine</li>
-              <li class="orange">
-                <a href="#" class="prog-btn btn-warning">Sign Up</a>
+      <div class="programs " id="programs">
+          <div class="card program  progOne ">
+            <ul class=" progOne-ul">
+              <li class="program-type">Basic</li>
+              <li class="price"><sup>$</sup> 9.99 /<sub> Month</sub></li>
+              <li class="program-desc">Lefts</li>
+              <li class="program-desc">Tradmails</li>
+              <li class="program-desc">Cable Machine</li>
+              <li class="program-desc">Leg Machine</li>
+              <li class="program-signup">
+                <button class="btn btn-outline-danger btn-lg" type="submit">
+                  Search
+                </button>
+               </li>
+            </ul>
+         </div>
+          <div class="card program  progTwo">
+            <ul class=" progTwo-ul">
+              <li class="program-type">Premium</li>
+              <li class="price"><sup>$</sup> 19.99 /<sub> Month</sub></li>
+              <li class="program-desc">All Machines</li>
+              <li class="program-desc">Tradmails</li>
+              <li class="program-desc">Crossfit</li>
+              <li class="program-desc">Fitness Coach</li>
+              <li class="program-btn">
+                <button class="btn btn-outline-danger btn-lg" type="submit">
+                  Sign Up
+                </button>          
+              </li>
+            </ul>
+        </div>
+          <div class="card program  progThree">
+            <ul class=" progThree-ul">
+              <li class="program-type">Ultimate</li>
+              <li class="price"><sup>$</sup> 29.99 /<sub> Month</sub></li>
+              <li class="program-desc">All Machines</li>
+              <li class="program-desc">Tradmails</li>
+              <li class="program-desc">Fitness Coach</li>
+              <li class="program-desc">Nutrition</li>
+              <li class="program-signup">
+                <button class="btn btn-outline-danger btn-lg" type="submit">
+                  Sign Up
+                </button>   
               </li>
             </ul>
           </div>
-        </div>
-        <div class="progTwo">
-          <div class="columns">
-            <ul class="progTwo-ul">
-              <li class="prog-header">Premium</li>
-              <li class="price">$ 19.99 / month</li>
-              <li>All Machines</li>
-              <li>Tradmails</li>
-              <li>Crossfit</li>
-              <li>Fitness Coach</li>
-              <li class="orange">
-                <a href="#" class="prog-btn btn-warning">Sign Up</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="progThree">
-          <div class="columns">
-            <ul class="progTwo-ul">
-              <li class="prog-header">Ultimate</li>
-              <li class="price">$ 29.99 / month</li>
-              <li>All Machines</li>
-              <li>Tradmails</li>
-              <li>Fitness Coach</li>
-              <li>Nutrition</li>
-              <li class="orange">
-                <a href="#" class="prog-btn btn-warning">Sign Up</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
        <!--Table-->
       <div class="table hidden">
@@ -170,7 +189,7 @@
     </div>
     </main>
 
-    <footer>
+    <!-- <footer>
       <div class="footer">
         <div class="social-media">
           <a
@@ -212,7 +231,7 @@
       </nav>
     </div>
     </div>
-    </footer>
+    </footer> -->
     
     <script src="script.js"></script>
   </body>
