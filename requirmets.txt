@@ -21,7 +21,7 @@ by using JavaScript (done)
 
 10. Add at least 5 Special Characters & Symbols includes fractions (4 till now)
 
-11. Add digital clock or Analog Clock ()
+11. Add digital clock or Analog Clock (done)
 
 12. (Bonus) Add games in your site using JavaScript as "Tic-Tac-Toe" Game or 
 a "Rock, Paper, Scissors" game or etc… (done)

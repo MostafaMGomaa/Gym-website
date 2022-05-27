@@ -1,0 +1,12 @@
+.clock-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.clock {
+  text-align: center;
+  color: orange;
+  background-color: rgba(138, 138, 138, 0.295);
+  padding: 10px;
+  border-radius: 10px;
+}
