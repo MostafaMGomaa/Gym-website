@@ -3,6 +3,8 @@ const Signupform = document.querySelector(".sign_up_form");
 const signupPassword = document.querySelector(".sign_up_password");
 const passwordStrenth = document.querySelector(".password_strength");
 const passwordStrenthMsg = document.querySelector(".password_strength_msg");
+const btnLogin = document.querySelector(".btnLogin");
+const btnBack = document.querySelector(".btn-back");
 
 const calcStrength = (pass, p, span) => {
   if (pass.value.length > 0) {
@@ -33,4 +35,12 @@ btnSingupSubmit.addEventListener("click", () => {
 
 signupPassword.addEventListener("input", () => {
   calcStrength(signupPassword, passwordStrenth, passwordStrenthMsg);
+});
+
+btnLogin.addEventListener("click", () => {
+  location.href = "../login/login.html";
+});
+
+btnBack.addEventListener("click", () => {
+  location.href = "../index.html";
 });

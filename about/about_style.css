@@ -25,9 +25,10 @@ body {
 }
 .img {
   position: absolute;
-  left: 100px;
+  left: 200px;
   width: 30cm;
   height: 15cm;
+  margin: 10px;
   border-radius: 10px;
 }
 .clients {
@@ -38,7 +39,6 @@ body {
   height: 300px;
   margin: 50px;
 }
-
 .demo-content {
   position: relative;
   padding: 15px;

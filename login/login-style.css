@@ -1,24 +1,9 @@
 body {
   font-size: 20px;
-  font-family: sans-serif;
   line-height: 50px;
   height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: rgb(240, 179, 11);
-}
-
-.footer {
-  font-size: medium;
-  font-weight: 700;
-  position: absolute;
-  top: 92%;
-  left: 42%;
-}
-.layout {
-  background-image: url("../img/back2.jpeg");
-  filter: blur(8px);
-  height: 100%;
-  background: center cover no-repeat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 20;
 }
 .container {
   margin: 0;
@@ -26,31 +11,74 @@ body {
   width: 600px;
   height: 500px;
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 5%;
+  left: 5%;
   border-radius: 20px;
   box-shadow: black;
   text-align: center;
 }
-
+.btn-back {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  width: 70px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #e0e0e0;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.form-container {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  top: 20%;
+  left: 30%;
+  background-color: rgb(231, 231, 231);
+  width: 30cm;
+  height: 15cm;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.img-container {
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+.form-img {
+  width: 100%;
+  height: 100%;
+}
+.form {
+  position: relative;
+  margin: 10px;
+  left: 10%;
+}
 .login_heading,
 .sign_up_heading {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-shadow: black;
+  background: -webkit-linear-gradient(rgb(252, 228, 123), rgb(212, 101, 27));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 input {
   padding: 5px;
   width: 400px;
   border-style: none none solid none;
-  border-color: rgb(219, 238, 188);
+  border-color: rgb(238, 177, 8);
   background: none;
   position: relative;
   margin: 0 auto;
   color: rgb(0, 0, 0);
 }
-
 .btn {
   margin: 5px;
   padding: 5px;
@@ -59,39 +87,74 @@ input {
   border: none;
   cursor: pointer;
 }
-
-img {
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+.btn-submit {
   border-radius: 50px;
 }
-
-.down-side {
-  color: aliceblue;
+.btn-submit:hover {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
-
-.links a:link,
-.down-side a:link {
+.down-side {
+  color: rgb(0, 0, 0);
+}
+.links a:link {
   text-decoration: none;
-  color: rgb(245, 222, 179);
+  color: rgb(255, 174, 0);
   margin: 5px;
 }
-
-.links a:link:hover,
-.left-side a:link:hover {
-  color: rgb(200, 255, 0);
+.links a:link:hover {
+  color: brown;
 }
-
-p {
-  margin: 0;
+.links a:link:visited {
+  color: rgb(99, 71, 12);
 }
-
 .password_strength {
-  color: white;
+  color: rgb(0, 0, 0);
 }
-
 input:focus {
   outline: none;
   border-style: none none solid none;
+}
+.footer-span {
+  font-size: medium;
+  font-weight: 700;
+  position: absolute;
+  top: 92%;
+  left: 42%;
+  color: orange;
+}
+.btnLogin {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+.btnLogin:hover,
+.btnLogin:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 .hidden {
   display: none;

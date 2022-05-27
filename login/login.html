@@ -6,43 +6,48 @@
   </head>
 
   <body>
-    <div class="layout"></div>
-    <div class="down-side">
-      <span class="footer">
-        To contact with our support<a href="#">click here </a></span
-      >
+    <div class="container">
+      <button type="button" class="btn-back"><p>&larr;</p></button>
+      <div class="form-container">
+        <div class="img-container">
+          <img src="../img/form_2.jpg" class="form-img" />
+        </div>
+        <div id="log_in" class="log_in form">
+          <form class="login_form">
+            <h1 class="login_heading">Login</h1>
+            <input
+              type="text"
+              class="login_username"
+              autofocus
+              placeholder="👤️ Username or email"
+            />
+            <br />
+            <input
+              type="password"
+              class="login_password"
+              placeholder="🛂️ Password"
+            /><br />
+            <button class="btn login_submit btn-submit">
+              <img src="../img/arrow.png" />
+            </button>
+            <!--Links-->
+            <div class="links">
+              <a href="#">Forget your password?</a> <br />
+              <a href="#" class="login_create_one">
+                Don't have account? Create one.</a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <div class="container">
-      <div id="log_in" class="log_in">
-        <form class="login_form">
-          <h1 class="login_heading">Login</h1>
-          <input
-            type="text"
-            class="login_username"
-            autofocus
-            placeholder="👤️Username or email"
-          />
-          <br />
-          <input
-            type="password"
-            class="login_password"
-            placeholder="🛂️Password"
-          /><br />
-
-          <button class="btn login_submit">
-            <img src="../img/arrow.png" />
-          </button>
-
-          <!--Links-->
-          <div class="links">
-            <a href="#">Forget your password?</a> <br />
-            <a href="#" class="login_create_one"
-              >Don't have account? Create one.</a
-            >
-          </div>
-        </form>
-      </div>
+    <div class="footer">
+      <span class="footer-span links">
+        To contact with our support<a href="#" class="link_support">
+          click here
+        </a></span
+      >
     </div>
 
     <script src="login-script.js"></script>

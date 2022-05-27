@@ -5,11 +5,11 @@ const Loginform = document.querySelector(".login_form");
 const Signupform = document.querySelector(".sign_up_form");
 const linkCreateEmail = document.querySelector(".login_create_one");
 const linkLogin = document.querySelector(".login_link");
-
 const LoginPassword = document.querySelector(".login_password");
 const signupPassword = document.querySelector(".sign_up_password");
 const passwordStrenth = document.querySelector(".password_strength");
 const passwordStrenthMsg = document.querySelector(".password_strength_msg");
+const btnBack = document.querySelector(".btn-back");
 
 const calcStrength = (pass, p, span) => {
   if (pass.value.length > 0) {
@@ -41,4 +41,7 @@ btnLoginSubmit.addEventListener("click", () => {
 // Password strength
 LoginPassword.addEventListener("input", () => {
   calcStrength(LoginPassword, passwordStrenth, passwordStrenthMsg);
+});
+btnBack.addEventListener("click", () => {
+  location.href = "../index.html";
 });
