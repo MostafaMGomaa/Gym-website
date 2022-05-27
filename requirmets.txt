@@ -1,22 +1,16 @@
-1. HTML & CSS & JAVASCRIPT for at least three web pages including login
- & Registration form or contact us form with social medial icons (Done)
-
-2. Show Password Strength in Registration form (Done)
-
-3. Website has Navigation Menu Bar or Sidebar Menu (Done)
-
-4. Website includes tables and list with circle type (Done) 
-
-5. Website contains Buttons , bootstrap buttons and dropdown menus (Done)
-
-6. Website contains Image gallery with Search box (Done)
-
-7. Apply bootstrap grid in one page in website (Done)
-
-8. Apply bootstrap Pagination at the end of website (Done)
-
-9. Apply Onclick Event to change the style of comment Text Area in contact
-us page as text area background. (Done)
-
-10. Bonus (Apply animated Pop up Modal box that appear your name and
-your section ) (Done)
+1. HTML & CSS & JAVASCRIPT for at least connected five web pages 
+including a first login & Registration form page and contact us form with 
+social medial icons
+2. In Registration form Show Password Strength (weak, medium or strong) 
+by using JavaScript
+3. Website has Navigation Menu Bar or Sidebar Menu
+4. Website includes (Contextual Classes )table using bootstrap
+5. Website contains Buttons , bootstrap buttons and dropdown menus
+6. Website contains light box Image gallery with Search box
+7. Apply bootstrap grid in one page in your website
+8. Apply bootstrap Pagination at the end of website
+9. Add video and background audio 
+10. Add at least 5 Special Characters & Symbols includes fractions
+11. Add digital clock or Analog Clock
+12. (Bonus) Add games in your site using JavaScript as "Tic-Tac-Toe" Game or 
+a "Rock, Paper, Scissors" game or etc…

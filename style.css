@@ -1,30 +1,45 @@
-body {
-  display: flexbox;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
+html {
+  background-color: rgb(255, 255, 255);
 }
-
+body {
+  min-height: 100vh;
+  align-items: center;
+  min-height: 100vh;
+  background-color: papayawhip;
+  margin: 0 auto;
+}
 /* Header */
 /* social-media */
+.top-header {
+  position: absolute;
+  background-color: white;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
 .email {
   position: absolute;
+  position: fixed;
   top: 5px;
   left: 10%;
 }
 .email-icon {
+  position: fixed;
   font-size: 30px;
   color: #000000;
 }
 .email-txt {
+  position: fixed;
   margin: 2px;
   color: #fd0606;
 }
 .social-media {
   position: absolute;
+  position: fixed;
   left: 87%;
   top: 0;
   margin: 0 7 0 7px;
+  z-index: 1;
 }
 .fa:hover {
   color: #069afd;
@@ -35,19 +50,19 @@ body {
 .fa-facebook:hover {
   color: #3b5998;
 }
-
 .page-header {
   position: fixed;
   top: 4%;
-  right: 0;
-  left: 0;
+  right: 2%;
+  left: 2%;
   z-index: 1;
   padding: 5px;
   height: 55px;
-  background-color: rgba(245, 245, 245, 0.87);
+  background-color: rgb(245, 245, 245);
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
-.header-logo {
+.header-logo,
+.footer-logo {
   position: absolute;
   position: fixed;
   height: 70px;
@@ -189,7 +204,7 @@ body {
 .bi-arrow-down {
   position: absolute;
   top: 14%;
-  left: 68%;
+  left: 70%;
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
@@ -305,8 +320,6 @@ td:hover {
   background-color: rgb(104, 100, 53);
 }
 
-/* Footer */
-
 /* pagination */
 .pagination-div {
   position: absolute;
@@ -326,7 +339,60 @@ td:hover {
   background-color: black;
   color: wheat;
 }
-
+/*footer*/
+.footer {
+  position: absolute;
+  top: 110%;
+  right: 2%;
+  left: 2%;
+  height: 5.5rem;
+  background-color: #e7e7e7;
+  border-radius: 2px;
+  margin: 5px;
+}
+.footer-left {
+  display: flex;
+  float: left;
+}
+.footer-logo {
+  position: relative;
+  top: 0;
+  height: 70px;
+  width: 70px;
+  left: 20px;
+  margin: 10px;
+}
+.footer-label {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  font-weight: 20;
+  color: orange;
+}
+.footer-right {
+  position: relative;
+  left: 50%;
+}
+.footer-nav__link {
+  left: 320px;
+  padding: 5px;
+  margin: 5px;
+  font-size: medium;
+  color: rgb(156, 154, 154);
+}
+.footer-nav__link:hover {
+  color: orange;
+}
+.copyright {
+  position: relative;
+  left: 75%;
+  margin: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  color: rgb(156, 154, 154);
+}
 /*Style*/
 .marked {
   border: 3px solid #fd6106;
