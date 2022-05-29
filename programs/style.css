@@ -376,7 +376,7 @@ td:hover {
   left: 50%;
 }
 .footer-nav__link {
-  left: 320px;
+  left: 270px;
   padding: 5px;
   margin: 5px;
   font-size: medium;
@@ -387,7 +387,7 @@ td:hover {
 }
 .copyright {
   position: relative;
-  left: 75%;
+  left: 70%;
   margin: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: small;
