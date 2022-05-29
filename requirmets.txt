@@ -3,7 +3,7 @@ including a first login & Registration form page and contact us form with
 social medial icons (done)
 
 2. In Registration form Show Password Strength (weak, medium or strong) 
-by using JavaScript (done)
+by using JavaScript 
 
 3. Website has Navigation Menu Bar or Sidebar Menu (done)
 
