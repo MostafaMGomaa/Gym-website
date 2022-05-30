@@ -1,118 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 body {
-    background-color: #eeeeee;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #eeeeee;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
 }
-
+.arrow {
+  font-size: 38px;
+}
+.btn-back {
+  position: absolute;
+  left: 7%;
+  top: 10%;
+  padding: 5px 10px 0px 10px;
+  border: none;
+  margin: 2px;
+}
+.btn-back:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.7);
+  margin: 5px;
+  border-radius: 50px;
+}
 .container {
-    margin: 20px;
-    padding: 20px;
-    border: black;
-    border-radius: 20px;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  height: 700px;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+  text-align: left;
 }
-
+.form {
+  padding: 20px;
+  margin: 10px;
+}
+.display-3 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-style: none none solid none;
+  border-color: #a73232;
+  margin: 10px;
+}
 input[type="text"],
 select,
 textarea {
-    background-color: #eeeeee;
-    width: 100%;
-    padding: 20px;
-    border: black;
-    border-radius: 20px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+  background-color: #eeeeee;
+  width: 70%;
+  padding: 20px;
+  border: rgb(0, 0, 0) 2px solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 10px;
 }
-
 input[type="submit"] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
 }
-
 input[type="submit"]:hover {
-    background-color: #e21a00;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
+  background-color: #e21a00;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
 }
-
 input:focus,
 textarea {
-    outline-color: #a73232;
+  outline-color: #a73232;
 }
-
 .country-select {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
-
 .subject-field {
-    height: 200px;
+  position: relative;
+  width: 600px;
+  height: 200px;
 }
-
-.btns {
-    position: absolute;
-    left: 10%;
-    margin: 20px;
-    margin-bottom: 0;
-}
-
 .btn {
-    padding: 10px;
-    border-radius: 20px;
-    font-size: larger;
-    border: none;
-    color: rgb(184, 184, 184);
+  position: relative;
+  left: 30%;
+  padding: 15px;
+  width: 100px;
 }
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.white {
-    background-color: rgb(255, 255, 255);
-}
-
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(1, 8, 12);
-    margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(1, 8, 12);
+  margin-bottom: 0;
 }
-
 .social-media {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: max-content;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: max-content;
 }
-
 .fa {
-    padding: 5px 5px 30px 5px;
-    margin: 10px;
-    width: 50px;
-    height: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
+  padding: 5px 5px 45px 5px;
+  margin: 10px;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
-
 .fa:hover {
-    color: rgb(0, 102, 255);
+  color: rgb(0, 102, 255);
 }
