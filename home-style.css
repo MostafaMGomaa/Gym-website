@@ -1,39 +1,53 @@
+.content-left {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  margin: 10px;
+  float: left;
+}
+.content-right {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  margin: 10px;
+  float: right;
+}
 .clock-container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+  position: absolute;
+  left: 40%;
+  top: 10%;
 }
-
 .clock {
-    text-align: center;
-    color: orange;
-    background-color: rgba(138, 138, 138, 0.295);
-    padding: 10px;
-    border-radius: 10px;
+  text-align: center;
+  color: orange;
+  background-color: rgba(138, 138, 138, 0.295);
+  padding: 10px;
+  border-radius: 10px;
 }
-
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 5rem;
 }
-
 .footer-nav {
-    text-align: center;
-    color: black;
-    padding: 0.3rem;
+  position: absolute;
+  text-align: center;
+  color: black;
+  padding: 0.3rem;
+  left: 75%;
+  bottom: 50px;
 }
-
 .footer-link {
-    padding: 1rem;
-    font-size: large;
-    color: black;
+  padding: 1rem;
+  font-size: large;
+  color: black;
+  text-decoration: none;
 }
-
 .copyright-container {
-    position: absolute;
-    left: 47rem;
+  position: absolute;
+  left: 70rem;
+  bottom: 0px;
 }

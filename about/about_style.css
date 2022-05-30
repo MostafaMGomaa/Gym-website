@@ -34,7 +34,7 @@ body {
 .clients {
   position: absolute;
   top: 110%;
-  left: 20%;
+  left: 12%;
   width: 30cm;
   height: 300px;
   margin: 50px;
@@ -84,12 +84,23 @@ body {
   background: -webkit-linear-gradient(rgb(252, 228, 123), rgb(212, 101, 27));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3); */
   text-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.projects {
+  width: 8cm;
+  left: 60%;
+}
+.rps {
+  position: relative;
+  left: 28%;
+}
+.btn-rps {
+  background: none;
+  border: none;
 }
 .footer {
   position: absolute;
-  top: 170%;
+  top: 200%;
   border-radius: 10px;
   padding: 5px;
 }

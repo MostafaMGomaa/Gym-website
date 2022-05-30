@@ -1,4 +1,8 @@
 const clock = document.querySelector(".clock");
+const fw_bold = document.querySelector(".fw-bold");
+
+const audio = new Audio();
+audio.src = "audio/click.mp3";
 
 const showTime = () => {
   let date = new Date();
@@ -20,4 +24,16 @@ const showTime = () => {
   clock.innerHTML = time;
   setTimeout(showTime, 1000);
 };
+
 showTime();
+function play() {
+  audio.play();
+}
+
+fw_bold.addEventListener("click", () => {
+  audio.play();
+});
+
+window.onload = function () {
+  document.getElementById("my_audio").play();
+};
