@@ -18,15 +18,22 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    height: 5rem;
 }
 
 .footer-nav {
-    padding: 2rem;
     text-align: center;
+    color: black;
+    padding: 0.3rem;
 }
 
 .footer-link {
-    padding: 2rem;
+    padding: 1rem;
     font-size: large;
     color: black;
+}
+
+.copyright-container {
+    position: absolute;
+    left: 47rem;
 }
