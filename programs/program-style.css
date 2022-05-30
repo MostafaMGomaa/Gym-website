@@ -432,7 +432,7 @@ td:hover {
   display: none;
 }
 
-footer {
+/* footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -451,7 +451,7 @@ footer {
   padding: 1rem;
   font-size: large;
   color: black;
-}
+} */
 
 .copyright-container {
   position: absolute;
