@@ -84,7 +84,8 @@ body {
   background: -webkit-linear-gradient(rgb(252, 228, 123), rgb(212, 101, 27));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3); */
+  text-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
 }
 .footer {
   position: absolute;

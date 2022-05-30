@@ -32,11 +32,11 @@ const mark = (fDiv, sDiv, tDiv) => {
 };
 
 btnLogin.addEventListener("click", () => {
-  location.href = "login/login.html";
+  location.href = "../login/login.html";
 });
 
 btnSignup.addEventListener("click", () => {
-  location.href = "registration/registration.html";
+  location.href = "../registration/registration.html";
 });
 
 dropProgOne.addEventListener("click", () => {
@@ -64,6 +64,8 @@ dropSessions.addEventListener("click", () => {
   hide(divTable, divPrograms);
 });
 
-btnClose.addEventListener("click", () => {
-  popup.classList.add("hidden");
-});
+if (btnClose) {
+  btnClose.addEventListener("click", () => {
+    popup.classList.add("hidden");
+  });
+}
