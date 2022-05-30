@@ -1,118 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: #eeeeee;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: black;
+    background: #eeee;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .container {
-    margin: 20px;
-    padding: 20px;
-    border: black;
-    border-radius: 20px;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
-}
-
-input[type="text"],
-select,
-textarea {
-    background-color: #eeeeee;
-    width: 100%;
-    padding: 20px;
-    border: black;
-    border-radius: 20px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-input[type="submit"] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #e21a00;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
-}
-
-input:focus,
-textarea {
-    outline-color: #a73232;
-}
-
-.country-select {
-    color: rgb(0, 0, 0);
-}
-
-.subject-field {
-    height: 200px;
-}
-
-.btns {
     position: absolute;
-    left: 10%;
-    margin: 20px;
-    margin-bottom: 0;
+    top: 7%;
+    left: 20%;
 }
 
-.btn {
-    padding: 10px;
-    border-radius: 20px;
-    font-size: larger;
-    border: none;
-    color: rgb(184, 184, 184);
+.form-control {
+    border-radius: 8%;
+    border: black;
+    border-style: groove;
 }
 
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.white {
-    background-color: rgb(255, 255, 255);
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(1, 8, 12);
-    margin-bottom: 0;
-}
-
-.social-media {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: max-content;
-}
-
-.fa {
-    padding: 5px 5px 30px 5px;
-    margin: 10px;
-    width: 50px;
-    height: 20px;
-    text-align: center;
+.btn-submit {
+    font-size: large;
     text-decoration: none;
-    border-radius: 20px;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
+    color: black;
+    box-shadow: 0px 0px 0px 2px black;
+    border-radius: 3px;
+    padding: 5px 2em;
+    transition: 0.5s;
+    background-color: inherit;
 }
 
-.fa:hover {
-    color: rgb(0, 102, 255);
+.btn-submit:hover {
+    background: #eeee;
+    color: dimgray;
+    transition: 0.5s;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+}
+
+.footer-nav {
+    text-align: center;
+    color: black;
+    padding: 0.3rem;
+}
+
+.footer-link {
+    padding: 1rem;
+    font-size: large;
+    color: black;
+}
+
+.copyright-container {
+    position: absolute;
+    font-weight: initial;
+    font-size: initial;
+    left: 55.5rem;
 }
