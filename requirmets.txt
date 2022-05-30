@@ -17,7 +17,7 @@ by using JavaScript
 
 8. Apply bootstrap Pagination at the end of website ()
 
-9. Add video and background audio ()
+9. Add video and background audio (done)
 
 10. Add at least 5 Special Characters & Symbols includes fractions (done)
 
