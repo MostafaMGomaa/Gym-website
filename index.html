@@ -14,7 +14,7 @@
     <link rel="icon" type="image/x-icon" href="../img/fav2.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
+  </head>
 
 <body>
     <header>
@@ -84,23 +84,54 @@
             </div>
 
             <div class="btn-group header-btn" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-outline-dark btnLogin" class="forms">
-           <a href="./login/login.html"> Login</a>
-          </button>
-                <button type="button" class="btn btn btn-dark btnSignup">
-                  <a href="./registration/registration.html" class="forms"> Signup</a>
-          </button>
+                <button type="button" class="btn btn-outline-dark btnLogin" class="forms">Login
+                </button>
+                <button type="button" class="btn btn btn-dark btnSignup">Signup
+              </button>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <div class="clock-container">
-            <h1 display-1 id="clock" class="clock"></h1>
+      <audio autoplay>
+        <source src="audio/Welcome.mp3" type="audio/mpeg">
+      </audio>
+      <div class="content">
+        <div class="content-left">
+          <h1 class="display-1">Gold Gym</h1>
+          <p class="lead">
+            You wanna be a professional in the gym? Of course not such this weak
+          </p>
+          <p class="lead">
+            <button class="btn btn-lg btn-secondary fw-bold border-white bg-dark"
+              >Learn more</button
+            >
+          </p>
+          
         </div>
+        <div class="content-right">
+          <video width="600" height="450" controls autoplay muted>
+          <source src="videos/movie.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+   
+ 
+     
+     
     </main>
 
     <footer class="bg-light text-center text-lg-start">
+<<<<<<< HEAD
+=======
+      <div class="footer-left">
+        <p class="footer-left footer-label display-6 gradient-text">GYM <sub>&reg;</sub></p>
+          <div class="clock-container">
+            <h1 display-1 id="clock" class="clock"></h1>
+        </div>
+      </div>
+>>>>>>> 69613f82986a50b6d2a874fcb52c640d037fc72e
         <div class="footer-nav">
             <a href="#" class="footer-link">Home</a>
             <a href="#news" class="footer-link">Programs</a>
@@ -114,6 +145,7 @@
         </div>
     </footer>
     <script src="home-scrtipt.js"></script>
+    <script src="programs/program-script.js"></script>
 </body>
 
 </html>

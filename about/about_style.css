@@ -29,12 +29,21 @@ body {
 }
 
 .clients {
+<<<<<<< HEAD
     position: absolute;
     top: 60%;
     left: 35%;
     width: 30cm;
     height: 300px;
     margin: 50px;
+=======
+  position: absolute;
+  top: 110%;
+  left: 12%;
+  width: 30cm;
+  height: 300px;
+  margin: 50px;
+>>>>>>> 69613f82986a50b6d2a874fcb52c640d037fc72e
 }
 
 .demo-content {
@@ -73,6 +82,7 @@ body {
 }
 
 .team {
+<<<<<<< HEAD
     position: relative;
     left: 70%;
     width: 5cm;
@@ -105,6 +115,35 @@ footer {
     padding: 1rem;
     font-size: large;
     color: black;
+=======
+  position: relative;
+  left: 70%;
+  width: 5cm;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background: -webkit-linear-gradient(rgb(252, 228, 123), rgb(212, 101, 27));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.projects {
+  width: 8cm;
+  left: 60%;
+}
+.rps {
+  position: relative;
+  left: 28%;
+}
+.btn-rps {
+  background: none;
+  border: none;
+}
+.footer {
+  position: absolute;
+  top: 210%;
+  border-radius: 10px;
+>>>>>>> 69613f82986a50b6d2a874fcb52c640d037fc72e
 }
 
 .copyright-container {
