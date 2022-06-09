@@ -77,6 +77,10 @@
             <div class="popup-info">Name: Mostafa Mohamed Gomaa<br> Section: 7</div>
             <button type="button" class="popup-close-btn btn-close " aria-label="Close"></button>
         </div>
+        <div class="popup salem">
+            <div class="popup-info">Name: Ahmed Salem Ahmed<br> Section: 1</div>
+            <button type="button" class="popup-close-btn btn-close " aria-label="Close"></button>
+        </div>
         <h1 class="display-2 memberships-label ">Memberships</h1>
         <!--programs-->
         <div class="programs" id="programs">
@@ -128,32 +132,31 @@
         </div>
         <!--Table-->
         <div class="table hidden">
-            <table class="sessions">
-                <tr>
-                    <th>Session</th>
-                    <th>Duration</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Cardio</td>
-                    <td>20 min</td>
-                    <td>9.99$</td>
-                </tr>
-                <tr>
-                    <td>Crossfit</td>
-                    <td>50 min</td>
-                    <td>14.99$</td>
-                </tr>
-                <tr>
-                    <td>Yoga</td>
-                    <td>60 min</td>
-                    <td>9.99$</td>
-                </tr>
-                <tr>
-                    <td>Zumba</td>
-                    <td>90 min</td>
-                    <td>14.99$</td>
-                </tr>
+            <table class="sessions table table-striped ">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Session</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Crossfit</td>
+                        <td>50 min</td>
+                        <td>14.99$</td>
+                    </tr>
+                    <tr>
+                        <td>Yoga</td>
+                        <td>60 min</td>
+                        <td>9.99$</td>
+                    </tr>
+                    <tr>
+                        <td>Zumba</td>
+                        <td>90 min</td>
+                        <td>14.99$</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
         </div>
@@ -163,9 +166,25 @@
     <footer class="bg-light text-center text-lg-start">
         <div class="footer-left">
           <p class="footer-left footer-label display-6 gradient-text">GYM <sub>&reg;</sub></p>
-            <div class="clock-container">
-              <h1 display-1 id="clock" class="clock"></h1>
-          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
           <div class="footer-nav">
               <a href="#home" class="footer-link">Home</a>
